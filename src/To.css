@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    font-family: sans-serif;
+    height: 100vh;
+    border: red;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(to bottom,rgba(0,0,0,0.9), rgba(0,0,0,0.9)) ,url(./im/nen.webp) no-repeat center/cover;
+}   
+.wed{
+    width: 350px;
+    border-radius: 10px;
+    padding: 30px 40px ;
+    background: url(./im/nen.webp) no-repeat center/cover;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+.search #search-one{
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    /* background: rgba(255, 255, 255, 0.3); */
+    border-radius: 5px ;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.2);
+}
+.search #search-two{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 3px;
+    border: 1px solid  greenyellow;
+}
+
+.ouput #ouput-one{
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.2);
+}
+.ouput #ouput-two{
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 3px;
+    border: 1px solid  greenyellow;
+}
+#but{
+   align-items: center;
+   display: flex;
+   padding: 5px 10px;
+   margin-left: 100px;
+   border-radius: 10px;
+   justify-content: center;
+   background-color: white;
+}
+#but:hover{
+    color: white;
+    background-color: black;
+}
